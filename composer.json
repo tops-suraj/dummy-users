@@ -1,0 +1,19 @@
+{
+    "name": "tops-suraj/dummy-users",
+    "description": "This package provides the dummy list of users.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TopsSuraj\\DummyUsers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Suraj Singh"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
