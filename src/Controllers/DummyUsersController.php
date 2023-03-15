@@ -9,6 +9,7 @@ class DummyUsersController
     {
         $response = Http::get("https://dummyjson.com/users");
         $users = $response["users"];
+        
         \Log::info(["users" => $users]);
         return view("dummy-users::index", compact("users"));
     }
